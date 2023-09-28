@@ -1,0 +1,316 @@
+.parallex {
+    z-index: 0;
+    background-image: url("assets/parallex.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-image: url("assets/background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    text-align: left;
+    padding-left: 18%;
+}
+h1 {
+    text-align: center;
+    padding: 13px;
+    color:#005086;
+    text-shadow: 5px 5px 10px #fff;
+}
+.intro h1 {
+    margin-top: 90px;
+}
+h2 {
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    color:#005086;
+    text-shadow: 5px 5px 10px #fff;
+}
+h3 {
+    margin-left: 40px;
+    font-size: 25px;
+    color:#005086;
+    text-shadow: 5px 5px 10px #fff;
+}
+h5 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #C7F1FF;
+    background-color: rgba(0,50,86,0.5);
+    padding: 30px;
+    border-radius: 50px;
+}
+.events td {
+    font-size: 20px;
+    color: #32A4D5;
+}
+.table p {
+    margin-left: 90px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color:#005086;
+}
+.leftalign {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #005086;
+}
+.rightalign {
+    margin-right: 10px;
+    font-size: 25px;
+    margin-left: 250px;
+    color: #005086;
+}
+.rightalign h3 {
+    margin-left: 40px;
+}
+nav {
+    background-color: #005086;
+    overflow: hidden;
+    text-align: center;
+    padding: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    color: #fff;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+img.logo {
+    float: left;
+    max-width: 130px;
+    margin-left: 20px;
+    position: relative;
+}
+img.members {
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    max-width: 600px;
+    overflow: hidden;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: #005086;
+
+}
+ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.home1 {
+    width: 150px; /* to make it into circle */
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 70%;
+    margin-left: 20px;
+    float: left;
+    margin-right: 40px;
+}
+img.pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+.whatispacs {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.whatisourmission {
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.whateventsarewedoing {
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.home2 {
+    width: 160px; /* to make it into circle */
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 70%;
+    margin-right: 20px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #32A4D5;
+}
+.table {
+    margin-bottom: 100px;
+}
+table {
+    table-layout: auto;
+}
+table.events {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+table.events td {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    border-radius: 40px;
+    border-spacing: 35%;
+}
+
+.teamTable {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+.p1, .p1Des {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.p1, .p2, .p3, .p4, .p5, .p6, .p7 {
+    width: 300px; /* to make it into circle */
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.p1Des, .p2Des, .p3Des, .p4Des, .p5Des, .p6Des, .p7Des {
+    margin-bottom: 20px;
+    color: #005086;
+    font-size: 20px;
+}
+img.team {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.text {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    margin-top: 100px;
+    margin-left: -18px;
+    text-align: center;
+    font-weight: bold;
+    color: #005086;
+    width: 100%;
+    box-sizing: border-box;
+    transition: opacity 0.3 ease;
+}
+.p1:hover img.team, .p2:hover img.team, .p3:hover img.team, .p4:hover img.team, 
+.p5:hover img.team, .p6:hover img.team, .p7:hover img.team {
+    opacity: 0.1;
+}
+.p1:hover .text, .p2:hover .text, .p3:hover .text, .p4:hover .text, 
+.p5:hover .text, .p6:hover .text, .p7:hover .text{
+    visibility: visible;
+    opacity: 1;
+}
+.text ul {
+    list-style: none;
+}
+.allIcons {
+    margin-left: 50px;
+}
+table.icons td {
+    padding: 20px;
+    color: #005086;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px #fff;
+}
+table.icons th {
+    width: 90px; /* to make it into circle */
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90%;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+img.email, img.instagram, img.linktree, img.discord {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+img.email:hover, img.instagram:hover, img.linktree:hover, img.discord:hover {
+    opacity: 0.7;
+}
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #005086;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 15px;
+    color: #fff;
+}
+footer p {
+    text-align: center;
+}
+.scroll-arrow {
+    display: inline-block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 3;
+    background: #32A4D5;
+    opacity: 0.9;
+}
+.scroll-text {
+    color: white;
+    position: fixed;
+    right: 37px;
+    bottom: 45px;
+    font-size: 19px;
+    z-index: 4;
+    text-shadow: 2px 2px 10px #005086;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: "DejaVu Sans Mono", monospace, sans-serif;
+  }
+.scroll-arrow:hover {
+    color: #C7F1FF;
+}
